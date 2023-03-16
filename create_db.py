@@ -3,8 +3,8 @@ import mysql.connector
 # To create database on local machine
 mydb = mysql.connector.connect(
     host="localhost",
-    user="root",
-    passwd='axios@2021',  # edit this with your MySQL password
+    user="oguti",
+    password='oguti1995',  # edit this with your MySQL password
 )
 
 my_cursor = mydb.cursor()
