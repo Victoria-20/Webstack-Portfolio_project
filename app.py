@@ -1,6 +1,5 @@
 from flask import Flask, redirect, render_template, request, session, url_for, jsonify
 from flask_session import Session
-from flask import Flask, render_template, request
 from flask_sqlalchemy import SQLAlchemy
 from datetime import datetime
 from chat import bot
